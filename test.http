@@ -1,0 +1,16 @@
+POST http://localhost:8000/awp
+Content-Type: application/json
+
+{
+    "threadId": "123",
+    "runId": "456",
+    "messages": [
+        {
+            "id": "123",
+            "role": "user",
+            "content": "Hello, how are you?"
+        }
+    ],
+    "tools": [],
+    "context": []
+}
